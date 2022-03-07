@@ -1,0 +1,56 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.raheel.androidflashlight"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:6:5-65
+11-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:6:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:7:5-60
+13-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:7:19-57
+14
+15    <application
+15-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:9:5-23:19
+16        android:allowBackup="true"
+16-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.0.0] C:\Users\raheel\.gradle\caches\transforms-2\files-2.1\5d0c1e3bd897d22bb13cb0897563d9c0\core-1.0.0\AndroidManifest.xml:22:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:icon="@mipmap/ic_launcher"
+20-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:11:9-43
+21        android:label="@string/app_name"
+21-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:12:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:13:9-54
+23        android:supportsRtl="true"
+23-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:14:9-35
+24        android:testOnly="true"
+25        android:theme="@style/AppTheme" >
+25-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:15:9-40
+26        <activity android:name="com.raheel.androidflashlight.MainActivity" >
+26-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:16:9-22:20
+26-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:16:19-75
+27            <intent-filter>
+27-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:17:13-21:29
+28                <action android:name="android.intent.action.MAIN" />
+28-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:18:17-69
+28-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:18:25-66
+29
+30                <category android:name="android.intent.category.LAUNCHER" />
+30-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:20:17-77
+30-->D:\other\journaldev-master\Android\AndroidFlashLight\app\src\main\AndroidManifest.xml:20:27-74
+31            </intent-filter>
+32        </activity>
+33    </application>
+34
+35</manifest>
